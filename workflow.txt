@@ -1,0 +1,118 @@
+
+## Features
+
+* Upload resumes in PDF, DOCX, or TXT format
+* Automatic text extraction from uploaded resumes
+* Resume preprocessing using NLP techniques
+* Predicts the most relevant job category
+* Displays prediction confidence
+* Simple and user-friendly Streamlit interface
+* Fast and accurate resume classification
+
+---
+
+## Technologies Used
+
+* Python
+* Machine Learning
+* Natural Language Processing (NLP)
+* K-Nearest Neighbors (KNN)
+* Scikit-learn
+* Pandas
+* NumPy
+* NLTK
+* Streamlit
+* Joblib
+
+---
+
+## Dataset
+
+The model is trained on a labeled resume dataset containing resumes from multiple professional domains such as:
+
+* Data Science
+* Machine Learning
+* Web Development
+* Java Developer
+* HR
+* Sales
+* Blockchain
+* Civil Engineering
+* Health & Fitness
+* Advocate
+* Business Analyst
+* DevOps
+* Testing
+* Network Security
+* Mechanical Engineering
+* Electrical Engineering
+* Operations Manager
+* Arts
+* Automation Testing
+* SAP Developer
+
+Each resume is associated with its corresponding job category, enabling supervised learning for classification.
+
+---
+
+## Machine Learning Pipeline
+
+1. Resume Upload
+2. Text Extraction
+3. Text Cleaning and Preprocessing
+4. TF-IDF Vectorization
+5. Feature Extraction
+6. K-Nearest Neighbors (KNN) Classification
+7. Job Category Prediction
+8. Display of Predicted Role
+
+
+
+
+
+## How It Works
+
+* The user uploads a resume.
+* The system extracts text from the uploaded document.
+* NLP preprocessing removes unwanted characters, punctuation, and stop words.
+* The processed resume is transformed into numerical features using TF-IDF.
+* The trained KNN classifier predicts the most appropriate job category.
+* The predicted category is displayed instantly through the Streamlit interface.
+
+---
+
+## Future Enhancements
+
+* Resume ranking based on job descriptions
+* Skill extraction and matching
+* ATS (Applicant Tracking System) score calculation
+* Resume parsing with structured output
+* Multi-label job prediction
+* Cloud deployment with authentication
+* Recruiter dashboard and analytics
+* Candidate recommendation system
+
+---
+
+## Applications
+
+* Recruitment Agencies
+* Human Resource Departments
+* Applicant Tracking Systems (ATS)
+* Campus Placement Cells
+* Online Job Portals
+* Enterprise Hiring Platforms
+
+---
+
+## Conclusion
+
+The Resume Screening System demonstrates how Machine Learning and Natural Language Processing can streamline the recruitment process by automatically categorizing resumes into relevant job domains. By using TF-IDF for feature extraction and the K-Nearest Neighbors algorithm for classification, the system provides an efficient, scalable, and reliable solution for resume screening, reducing manual effort while improving hiring accuracy.
+
+---
+
+## Author
+
+**Anushka Yadav**
+B.Tech (Computer Science and Engineering)
+Machine Learning Enthusiast
